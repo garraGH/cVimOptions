@@ -1,0 +1,21 @@
+let mapleader=' '
+map <leader>g :tabnew google<CR>
+map <leader>y :tabnew youtube<CR>
+map <leader>h :tabnew https://github.com<CR>
+map <leader>v :tabnew chrome-extension://ihlenndgcmojhcghmfjfneahoeklbjjh/pages/mappings.html<CR>
+map <leader>c :tabnew chrome-extension://ihlenndgcmojhcghmfjfneahoeklbjjh/pages/options.html<CR>
+map <leader>s :tabnew https://chrome.google.com/webstore/category/extensions?hl=zh-CN<CR>
+imap <C-h> deleteChar
+imap <C-d> deleteForwardChar
+imap <C-w> deleteWord
+imap <C-k> deleteToEnd
+imap <A-d> deleteForwardWord
+imap <A-w> deleteWord
+imap <A-a> beginningOfLine
+imap <A-e> endOfLine
+imap <A-h> backwardChar
+imap <A-l> forwardChar
+imap <A-j> forwardLine
+imap <A-k> backwardLine
+imap <A-f> forwardWord
+imap <A-b> backwardWord
